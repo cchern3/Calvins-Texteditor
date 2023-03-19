@@ -35,6 +35,14 @@
 - THEN I should have proper build scripts for a webpack application
   ## Deployed 
   [Deployed application](https://calvins-text-editor.herokuapp.com/)
+  
+<img width="1727" alt="Screenshot 2023-03-18 at 7 59 32 PM" src="https://user-images.githubusercontent.com/25966179/226187676-03db0162-6aca-4bcc-b24f-02c96d419641.png">
+<img width="1618" alt="Screenshot 2023-03-19 at 11 43 00 AM" src="https://user-images.githubusercontent.com/25966179/226187677-8593dff5-4644-4299-9e7f-98445f61ca9e.png">
+<img width="1724" alt="Screenshot 2023-03-19 at 11 44 44 AM" src="https://user-images.githubusercontent.com/25966179/226187678-d2d6b31a-8d08-4e53-a651-67048ba05ee9.png">
+<img width="1724" alt="Screenshot 2023-03-19 at 11 45 01 AM" src="https://user-images.githubusercontent.com/25966179/226187679-05f71776-8ee7-425d-a036-5dc9c17a1a2d.png">
+<img width="1728" alt="Screenshot 2023-03-19 at 11 45 28 AM" src="https://user-images.githubusercontent.com/25966179/226187680-a2a2bc8b-b5d2-4114-8790-8cd16619e0bf.png">
+
+  
   ## Questions
   Have questions about this project?  
   GitHub: https://github.com/cchern3  
