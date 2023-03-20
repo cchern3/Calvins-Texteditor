@@ -12,16 +12,21 @@ const initdb = async () =>
     },
   });
 
+// Export a function in order to use PUT to the database
 export const putDb = async (content) => {
   console.log('PUT to the database');
   const jateDb = await openDB('jate', 1);
+  // create a transaction and specify the database and data privileges
   const tx = jateDb.transaction('jate', 'readwrite');
+  // Open object store jate
   const store = tx.objectStore('jate');
+  // Using put method to assign id and content
   const request = store.put({ id: 1, value: content });
   const result = await request;
   console.log('data saved to the database', result.value);
 };
 
+// Export a function in order to use GET to the database
 export const getDb = async () => {
   console.log('GET from the database');
   const jateDb = await openDB('jate', 1);

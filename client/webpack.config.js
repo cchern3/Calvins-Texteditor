@@ -19,10 +19,12 @@ module.exports = () => {
         template: './index.html',
         title: 'J.A.T.E'
       }),
+      // injects the custom service worker
       new InjectManifest({
         swSrc: './src-sw.js',
         swDest: 'src-sw.js',
       }),
+      // creates a manifest.json file
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
@@ -44,6 +46,7 @@ module.exports = () => {
     ],
 
     module: {
+      // CSS loaders
       rules: [
         {
           test: /\.css$/i,
