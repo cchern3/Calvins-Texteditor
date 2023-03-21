@@ -10,7 +10,7 @@
   This challenge is to build a text editor that runs in a browser that meets the PWA criteria, data persistence techniques, and will be able to function online.
   ## Installation
 1. Download or clone the repository
-2. Node.js and IndexedDBb is required to use the application
+2. Node.js and IndexedDBb (Idb) is required to use the application
 3. Use npm install to install the necessary npm packages
   ## Usage
 - GIVEN a text editor web application 
